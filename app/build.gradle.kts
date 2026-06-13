@@ -51,4 +51,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
 //    call
     implementation("com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:+")
+//    custom camera
+    implementation("androidx.camera:camera-core:1.4.2")
+    implementation("androidx.camera:camera-camera2:1.4.2")
+    implementation("androidx.camera:camera-lifecycle:1.4.2")
+    implementation("androidx.camera:camera-view:1.4.2")
 }

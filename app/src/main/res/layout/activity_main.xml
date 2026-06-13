@@ -38,4 +38,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
+
+    <Button
+        android:id="@+id/cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:textColor="@color/white">
+
+    </Button>
 </LinearLayout>

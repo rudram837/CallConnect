@@ -1,5 +1,6 @@
 package com.app.call.UI
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.enableEdgeToEdge
@@ -29,6 +30,10 @@ class MainActivity : AppCompatActivity() {
             Log.d("ZEGO", "Calling = $target_user_id")
             getRReadyAudioCall(target_user_id)
             getRReadyVideoCall(target_user_id)
+        }
+
+        binding.cameraBtn.setOnClickListener {
+            startActivity(Intent(this, CustomCameraActivity::class.java))
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
